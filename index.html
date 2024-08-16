@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caja Modo Oscuro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="caja">
+        <h1 class="texto">Modo Oscuro</h1>
+        <button type="button" onclick="CambiarModoColor()">Activar modo oscuro</button>
+    </div>
+    <script>
+        function CambiarModoColor(){
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>

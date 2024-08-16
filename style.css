@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+div.caja{
+    width: 300px;
+    height: 200px ;
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div > button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+div > button:hover{
+    background-color: gray;
+    color: white;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.dark-mode div.caja {
+    background-color: gray;
+    border: solid 2px white;
+}
+
+.dark-mode div.caja > button{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+}
+
+.dark-mode div.caja > button:hover{
+    background-color: #ddd;
+}
